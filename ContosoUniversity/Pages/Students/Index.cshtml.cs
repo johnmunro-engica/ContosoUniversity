@@ -23,7 +23,7 @@ namespace ContosoUniversity.Pages.Students
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
 
-        public PaginatedList<Student> Students { get; set; }
+        public PaginatedList<Student> Students { get;  set; }
 
         public async Task OnGetAsync(string sortOrder,
             string currentFilter, string searchString, int? pageIndex)
